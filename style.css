@@ -96,12 +96,18 @@ header {
 
 .card img {
    width: 100%;
-  height: 100%;
+  height: auto;
+    display: block;
+
 }
 
 .card p {
   text-align: center;
   margin-top: 10px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
 }
 
 .Menu {
@@ -118,7 +124,9 @@ header {
     justify-content: space-between;
     align-items: center;
   }
-
+.collection container {
+  width: 100%;
+}
 
 
   .icons ul {
@@ -141,15 +149,21 @@ header {
   .Menu {
     display: flex;
   }
+   .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
 }
 
 
 @media(max-width:500px) {
 
-  .grid {
-    grid-template-columns: repeat(2, 1fr);
+   .grid {
+    grid-template-columns: 1fr;
   }
+  .collection{
+  width: 100%;
+}
 
 }
 @media(max-width:219px) {
@@ -157,5 +171,9 @@ header {
   .grid {
     grid-template-columns: 1fr;
   }
+  .collection .container {
+  width: 100%;
+
+}
 
 }
