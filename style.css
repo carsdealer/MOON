@@ -153,3 +153,11 @@ header {
   }
 
 }
+
+@media(max-width:219px) {
+
+  .grid {
+    grid-template-columns: 1fr;
+  }
+
+}
