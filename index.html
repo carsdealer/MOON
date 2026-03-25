@@ -1,126 +1,307 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>MOON</title>
-  <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet"/>
-  <link rel="stylesheet" href="style.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moon</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Jost:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
 </head>
+
 <body>
 
-
   <header>
-    <nav class="container">
-
-      <a href="#" class="logo">
-        <img src="image.png" alt="Moon Logo"/>
-      </a>
+    <div class="container nav">
+      <img src="assist/img/logo.png" class="logo" />
 
       <ul class="nav-links">
-        <li><a href="#">Home</a></li>
-        <li><a href="#collection">Shop</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
+        <li>Home</li>
+        <li>Shop</li>
+        <li>About</li>
+        <li>Contact</li>
       </ul>
 
       <div class="nav-icons">
+        <ul>
+          <li><img src="assist/img/Search.svg" /></li>
+          <li><img src="assist/img/Avatar.svg" /></li>
+          <li><img src="assist/img/Heart.svg" /></li>
+          <li><img src="assist/img/Shopping cart.svg" /></li>
+        </ul>
+      </div>
 
-  <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
-  <a href="#"><i class="fa-regular fa-user"></i></a>
-  <a href="#"><i class="fa-regular fa-heart"></i></a>
-  <a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
-
-  <div class="hamburger">
-    <span></span>
-    <span></span>
-    <span></span>
-  </div>
-
-</div>
-
-    </nav>
+      <div class="menu-btn">
+        <img src="./assist/img/Menu.png" />
+      </div>
+    </div>
   </header>
-
-  
 
 
   <section class="hero">
-
     <div class="hero-text">
-      <img class="hero-symbol" src="1772370972188_image.png" alt="Moon symbol"/>
-      <p class="hero-subtitle">Handcrafted in Viet Nam since 1650</p>
-      <h1 class="hero-title">Bat Trang<br/>Dinner Set</h1>
-      <a href="#collection" class="btn-outline">Shop Now</a>
+      <p class="hero-sub">Handcrafted in Viet Nam since 1650</p>
+      <h1>BAT TRANG<br />DINNER SET</h1>
+      <button class="btn-white">SHOP NOW</button>
     </div>
-
-    <div class="hero-image">
-      <img src="f3cba1d65779571795e3a3e8f55f7ec01d571873.jpg" alt="Bat Trang Ceramics"/>
+    <div class="hero-img">
+      <img src="assist/img/hero.png" />
     </div>
-
   </section>
 
 
-  <section id="collection">
+  <section class="categories">
     <div class="container">
-
-      <div class="section-header">
-        <p class="label">Explore</p>
-        <h2>Our Collections</h2>
-      </div>
-
-      <div class="collection-wrapper">
-        <div class="collection-grid">
-
-          <div class="card">
-            <div class="card-img">
-              <img src="e04ed7ee144833da2a15af60c326fd7767a48e5a.jpg" alt="Tableware"/>
-            </div>
-            <div class="card-overlay">
-              <p class="category">Ceramics</p>
-              <h3>Tableware</h3>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-img">
-              <img src="285b621f3f9dc455766672257908e989c6219d12.jpg" alt="Home Decor"/>
-            </div>
-            <div class="card-overlay">
-              <p class="category">Interior</p>
-              <h3>Home Decor</h3>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-img">
-              <img src="f3cba1d65779571795e3a3e8f55f7ec01d571873.jpg" alt="Holiday"/>
-            </div>
-            <div class="card-overlay">
-              <p class="category">Seasonal</p>
-              <h3>Holiday</h3>
-            </div>
-          </div>
-
-          <div class="card">
-            <div class="card-img">
-              <img src="7ee2a4948bb51c102a7ace7d433ffe28811bba70.jpg" alt="Collection"/>
-            </div>
-            <div class="card-overlay">
-              <p class="category">Featured</p>
-              <h3>Collection</h3>
-            </div>
-          </div>
-
+      <h2 class="section-heading">Our Collection</h2>
+      <div class="cat-grid">
+        <div class="cat-card">
+          <img src="assist/img/1.jpg" />
+          <p>TABLEWARE</p>
+        </div>
+        <div class="cat-card">
+          <img src="assist/img/2.jpg" />
+          <p>HOME DECOR</p>
+        </div>
+        <div class="cat-card">
+          <img src="assist/img/3.jpg" />
+          <p>HOLIDAY</p>
+        </div>
+        <div class="cat-card">
+          <img src="assist/img/4.jpg" />
+          <p>COLLECTION</p>
         </div>
       </div>
-
     </div>
   </section>
 
 
+  <section class="promo">
+    <div class="promo-text">
+      <h2>UP TO 40% OFF OUR<br>CHRISTMAS COLLECTION</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.</p>
+      <a href="#" class="underline-link">SHOP NOW</a>
+    </div>
+    <div class="promo-img">
+      <img src="assist/img/1.jpg" />
+    </div>
+  </section>
+
+
+  <section class="products-section">
+    <div class="container">
+      <h2 class="section-heading">BEST SELLERS</h2>
+      <div class="products-grid">
+
+        <div class="product-card">
+          <div class="product-img"><img src="assist/img/2.jpg" /></div>
+          <h3>SMALL ECRU CERAMIC COMPOTE</h3>
+          <span class="price">$49.00</span>
+          <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
+          <button class="btn-outline">ADD TO CART</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img"><img src="assist/img/3.jpg" /></div>
+          <h3>WARRICK WHITE VASE 14"</h3>
+          <span class="price">$49.00</span>
+          <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor.</p>
+          <button class="btn-outline">ADD TO CART</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img"><img src="assist/img/4.jpg" /></div>
+          <h3>TALL CREAM CERAMIC VASE</h3>
+          <span class="price">$49.00</span>
+          <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
+          <button class="btn-outline">ADD TO CART</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img"><img src="assist/img/1.jpg" /></div>
+          <h3>LUANA BOWL</h3>
+          <span class="price">$49.00</span>
+          <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
+          <button class="btn-outline">ADD TO CART</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img"><img src="assist/img/4.jpg" /></div>
+          <h3>ROUNDED DUAL HANDLED VASE</h3>
+          <span class="price">$49.00</span>
+          <p class="product-desc">Lorem ipsum dolor sit amet conse bolli adipiscing elit tortor eu.</p>
+          <button class="btn-outline">ADD TO CART</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img"><img src="assist/img/2.jpg" /></div>
+          <h3>MARIN WHITE DINNER PLATE</h3>
+          <span class="price">$49.00</span>
+          <p class="product-desc">Lorem ipsum dolor sit amet conse.</p>
+          <button class="btn-outline">ADD TO CART</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img"><img src="assist/img/3.jpg" /></div>
+          <h3>TALL CREAM CERAMIC VASE</h3>
+          <span class="price">$49.00</span>
+          <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor.</p>
+          <button class="btn-outline">ADD TO CART</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img"><img src="assist/img/1.jpg" /></div>
+          <h3>LUANA BOWL</h3>
+          <span class="price">$49.00</span>
+          <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
+          <button class="btn-outline">ADD TO CART</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="history-grid">
+    <div class="history-text">
+      <h2>MADE IN VIET NAM<br>SINCE 1450</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.</p>
+      <a href="#" class="underline-link">LEARN MORE</a>
+    </div>
+    <div class="history-img">
+      <img src="assist/img/2.jpg" />
+    </div>
+    <div class="history-img">
+      <img src="assist/img/3.jpg" />
+    </div>
+    <div class="history-text">
+      <h2>OUR HISTORY</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.</p>
+      <a href="#" class="underline-link">LEARN MORE</a>
+    </div>
+  </section>
+
+
+  <section class="products-section">
+    <div class="container">
+      <h2 class="section-heading">DISCOVER NEW ARRIVALS</h2>
+      <div class="products-grid">
+
+        <div class="product-card">
+          <div class="product-img"><img src="assist/img/1.jpg" /></div>
+          <h3>PORCELAIN DINNER PLATE</h3>
+          <span class="price">$49.00</span>
+          <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
+          <button class="btn-outline">ADD TO CART</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img"><img src="assist/img/2.jpg" /></div>
+          <h3>OPHELIA MATTE NATURAL VASE</h3>
+          <span class="price">$49.00</span>
+          <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor.</p>
+          <button class="btn-outline">ADD TO CART</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img"><img src="assist/img/3.jpg" /></div>
+          <h3>LUANA BOWL</h3>
+          <span class="price">$49.00</span>
+          <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
+          <button class="btn-outline">ADD TO CART</button>
+        </div>
+
+        <div class="product-card">
+          <div class="product-img"><img src="assist/img/4.jpg" /></div>
+          <h3>ROUND DUAL VASE</h3>
+          <span class="price">$49.00</span>
+          <p class="product-desc">Lorem ipsum dolor sit amet conse bolli tetur adipiscing elit tortor eu.</p>
+          <button class="btn-outline">ADD TO CART</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <section class="blog">
+    <div class="blog-text">
+      <h2 class="section-heading" style="text-align:left;">OUR BLOG</h2>
+      <span class="blog-category">TABLEWARE</span>
+      <h3>THE SECRETS TO A<br>KITCHEN ROOM</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+      </p>
+      <a href="#" class="underline-link">READ MORE</a>
+    </div>
+    <div class="blog-img">
+      <img src="assist/img/4.jpg" />
+    </div>
+  </section>
+
+
+  <section class="newsletter">
+    <div class="container newsletter-inner">
+      <p class="newsletter-sub">Sign up for emails</p>
+      <h2>FOR NEWS, COLLECTIONS & MORE</h2>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Email address" />
+        <button type="submit">SIGN UP</button>
+      </form>
+    </div>
+  </section>
+
+
+  <footer>
+    <div class="container footer-top">
+      <div class="footer-brand">
+        <img src="assist/img/logo.png" class="logo" />
+        <p>Premium handcrafted ceramics since&nbsp;1450. Experience the art of fine&nbsp;dining.</p>
+        <a href="#" class="btn-outline footer-cta">GET STARTED &rarr;</a>
+      </div>
+      <div class="footer-col">
+        <h4>ABOUT US</h4>
+        <ul>
+          <li>Mission</li>
+          <li>Our team</li>
+          <li>Awards</li>
+          <li>Testimonials</li>
+          <li>Privacy policy</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>SERVICES</h4>
+        <ul>
+          <li>Web design</li>
+          <li>Web development</li>
+          <li>Mobile design</li>
+          <li>UI/UX design</li>
+          <li>Branding design</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>PORTFOLIO</h4>
+        <ul>
+          <li>Corporate websites</li>
+          <li>E-commerce</li>
+          <li>Mobile apps</li>
+          <li>Landing pages</li>
+          <li>UI/UX projects</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <p>&copy; 2023 Moon. All rights reserved.</p>
+      <div class="footer-legal">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+      </div>
+    </div>
+  </footer>
 
 </body>
+
 </html>
